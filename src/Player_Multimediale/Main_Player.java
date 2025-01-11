@@ -2,14 +2,9 @@ package Player_Multimediale;
 
 public class Main_Player {
 	public static void main(String[] args){
-		Audio myAudio = new Audio("MySong", 2,4);
-		Video myVideo = new Video("MyFilm", 4,3,9);
+		Audio myAudio = new Audio("MySong", 1,4);
+		Video myVideo = new Video("MyFilm", 2,3,9);
 		Immagine myImmagine = new Immagine("MyPhoto", 10);
-
-		// Stampa i titoli degli elementi
-		System.out.println("Titolo Audio: " + myAudio.getTitolo());
-		System.out.println("Titolo Video: " + myVideo.getTitolo());
-		System.out.println("Titolo Immagine: " + myImmagine.getTitolo());
 
 		// Test Audio
 		System.out.println("Audio: " + myAudio.getTitolo());
